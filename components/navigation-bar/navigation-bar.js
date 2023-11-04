@@ -15,6 +15,7 @@ Component({
         menuRight: app.globalData.menuRight,
         menuTop: app.globalData.menuTop,
         menuHeight: app.globalData.menuHeight,
+        baseURL:app.globalData.baseURL
     },
     attached: function () {
 

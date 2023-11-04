@@ -1,0 +1,177 @@
+@import "/pages/font/iconfont.wxss";
+.page {
+    top:-94rpx;
+     position: relative;
+     width: 750rpx;
+     height: 100%;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+   }
+  .xiangji{
+    top: 12rpx;
+    width: 36rpx;
+    height: 36rpx;
+    margin-left:36rpx;
+  }
+  .uploadfont
+  {
+    width: 112rpx;
+    height: 112rpx;
+    margin-left:36rpx;
+    border: 3px solid 
+    #DBDBDB ;
+  }
+  .text-wrapper_1 {
+    background-color: rgba(91,132,248,1.000000);
+    border-radius: 45rpx;
+    height: 90rpx;
+    display: flex;
+    flex-direction: column;
+    width: 680rpx;
+    margin: 350rpx 0 82rpx 38rpx;
+  }
+  .textQuest
+  {
+    width: 334rpx;
+height: 28rpx;
+font-size: 28rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: #333333;
+line-height: 99rpx;
+
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .image {
+    width: calc(33.33% - 10px);
+    margin-bottom: 10px;
+  }
+  .textQuestMsg
+  {
+    width: 750rpx;
+height: 110rpx;
+background: #FFFFFF;
+
+  }
+  .text-wrapper_1 .text_1 {
+    width: 141rpx;
+    height: 34rpx;
+    overflow-wrap: break-word;
+    color: rgba(255,255,255,1);
+    font-size: 36rpx;
+    font-family: PingFangSC-Regular;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 36rpx;
+    margin: 28rpx 0 0 270rpx;
+  }
+   .block_1{
+    background: url(https://localhost:5001/api/Image/GetImage?imageName=schoolindex.png) -18rpx 0rpx no-repeat;
+    background-size: 768rpx 412rpx;
+    display: flex;
+    flex-direction: column;
+    width: 750rpx;
+    height: 412rpx;
+   }
+   .group_2 {
+     box-shadow: -2px 0px 30px 0px rgba(0,0,0,0.060000);
+     background-color: rgba(255,255,255,1.000000);
+     border-radius: 4rpx;
+     width: 680rpx;
+     height: 110rpx;
+     flex-direction: row;
+     display: flex;
+     margin: 280rpx 0 0 35rpx;
+   }
+   .image_1 {
+     width: 80rpx;
+     height: 80rpx;
+     margin: 15rpx 0 0 16rpx;
+   }
+   .text_1 {
+     width: 208rpx;
+     height: 30rpx;
+     overflow-wrap: break-word;
+     color: rgba(51,51,51,1);
+     font-size: 30rpx;
+     font-family: PingFangSC-Medium;
+     font-weight: 500;
+     text-align: justifyLeft;
+     white-space: nowrap;
+     line-height: 45rpx;
+     margin: 40rpx 348rpx 0 28rpx;
+   }
+   .group_3 {
+     background-color: rgba(91,132,248,1.000000);
+     height: 176rpx;
+     width: 750rpx;
+     position: absolute;
+     left: 0rpx;
+     top: -82rpx;
+     display: flex;
+     flex-direction: column;
+   }
+   .image-wrapper_1 {
+     width: 653rpx;
+     height: 26rpx;
+     display: flex;
+     flex-direction: row;
+     margin: 34rpx 0 0 69rpx;
+   }
+   .image_2 {
+     width: 653rpx;
+     height: 26rpx;
+   }
+   .group_4 {
+     width: 722rpx;
+     height: 64rpx;
+     flex-direction: row;
+     display: flex;
+     margin: 40rpx 0 12rpx 16rpx;
+   }
+   .image_3 {
+     width: 16rpx;
+     height: 29rpx;
+     margin-top: 17rpx;
+   }
+   .text_2 {
+     width: 119rpx;
+     height: 29rpx;
+     overflow-wrap: break-word;
+     color: rgba(255,255,255,1);
+     font-size: 30rpx;
+     font-family: PingFangSC-Regular;
+     font-weight: normal;
+     text-align: center;
+     white-space: nowrap;
+     line-height: 36rpx;
+     margin: 19rpx 0 0 283rpx;
+   }
+   .image_4 {
+     width: 175rpx;
+     height: 64rpx;
+     margin-left: 129rpx;
+   }
+   .font1{
+    width: 232rpx;
+    height: 25rpx;
+    font-size: 26rpx;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #999999;
+    line-height: 99rpx;
+    
+   }

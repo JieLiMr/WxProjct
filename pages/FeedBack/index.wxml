@@ -1,0 +1,40 @@
+<navigation-bar default-data="{{defaultData}}"></navigation-bar>
+<view class="page">
+    <view class="block_1">
+        <view class="group_2">
+          <image src="../../images/lanhu_02xuexiaozhuye/49470c1c4f0be1b3fbe1a098d2bb8b1b.png" class="image_1"></image>
+          <text lines="1" class="text_1">鄂州市第一中学</text>
+        </view>   
+      </view>
+      <view class="block_2">
+        <view style="width: 750rpx;height:110rpx;">     
+        <view style="height: 36rpx;margin:20rpx 20rpx">
+          您要反馈的问题是：
+        </view>
+        <view  style="height: 48rpx;margin: 20rpx 20rpx;font-size: 36rpx;">
+          借家委会名义摊派收取费用
+        </view>
+       </view>
+       <view style="height:300rpx;width:750rpx;background-color:white; margin-top: 30rpx; margin-left: 20rpx;">
+        <textarea  placeholder="输入问题详细描述" bindinput="onTextareaInput"  maxlength="-1" style="width: 750rpx;" />
+       </view>
+     
+       <view style="width: 750rpx;height: 100rpx;margin-top: 30rpx;">
+       </view>
+      <image src="/images/xiangji.png" class="xiangji"></image>
+       <text class="font1">请提供相关图片</text>
+      </view>
+     <view>
+     <image src="/images/uploadfont.png" bindtap="uploadFile" class="uploadfont"></image>
+     </view>
+     <view style="margin-top:10rpx;"></view>
+     <view  style="display: flex;" >
+        <view class="showPhoto" style="border:1px solid black;width:240rpx;height: 240rpx;margin-left: 5rpx;"></view>
+        <view class="showPhoto" style="border:1px solid black;width:240rpx;height: 240rpx;margin-left: 5rpx;"></view>
+        <view class="showPhoto" style="border:1px solid black;width:240rpx;height: 240rpx;margin-left: 5rpx;"></view>
+     </view>
+     <view class="text-wrapper_1">
+        <text lines="1" class="text_1" bindtap="submitForm">开始反馈</text>
+        <button hidden="true" bindtap="" ></button>
+      </view>
+</view>

@@ -1,0 +1,51 @@
+<navigation-bar default-data="{{defaultData}}"></navigation-bar>
+<view class="page">
+  <view class="block_1">
+        <view class="group_2">
+          <image src="../../images/lanhu_02xuexiaozhuye/49470c1c4f0be1b3fbe1a098d2bb8b1b.png" class="image_1"></image>
+          <text lines="1" class="text_1">{{SchoolTittle}}</text>
+        </view>   
+      </view>
+      <view class="block_2">
+        <view class="box_2">
+          <view class="section_1" data-id="{{issuseList[0].id}}"
+          data-name="{{issuseList[0].issueTitle}}"
+           bindtap="topath">
+            <image src="../../images/lanhu_02xuexiaozhuye/ce37a4f5891e8030f0047f61fac661dd.png" class="image_5"></image>
+            <text lines="1" class="text_3">{{issuseList[0].issueTitle}}</text>
+          </view>
+          <view class="section_2" data-id="{{issuseList[1].id}}"
+          data-name="{{issuseList[1].issueTitle}}"
+           bindtap="topath">
+            <image src="../../images/lanhu_02xuexiaozhuye/3cda000991851e20160b915f0dd7e44e.png" class="image_6"></image>
+            <text lines="1" class="text_4">{{issuseList[1].issueTitle}}</text>
+          </view>
+          <view class="section_3" data-id="{{issuseList[2].id}}" 
+          data-name="{{issuseList[2].issueTitle}}"
+          bindtap="topath">
+            <image src="../../images/lanhu_02xuexiaozhuye/3475dd257fdaee5217d7b5d8ae649b7a.png" class="image_7"></image>
+            <text lines="1" class="text_5">{{issuseList[2].issueTitle}}</text>
+          </view>
+        </view>
+        <view class="box_3">
+          <view class="group_5" data-id="{{issuseList[3].id}}"
+          data-name="{{issuseList[3].issueTitle}}"
+           bindtap="topath">
+            <image src="../../images/lanhu_02xuexiaozhuye/991175636c2b7576f9ea21da7cedd90c.png" class="image_8"></image>
+            <text lines="1" class="text_6">{{issuseList[3].issueTitle}}</text>
+          </view>
+          <view class="group_6" data-id="{{issuseList[4].id}}" 
+          data-name="{{issuseList[4].issueTitle}}"
+           bindtap="topath">
+            <image src="../../images/lanhu_02xuexiaozhuye/a07065efe1576ea833c2ce2c3bccd297.png" class="image_9"></image>
+            <text lines="1" class="paragraph_1">{{issuseList[4].issueTitle}}</text>
+          </view>
+          <view class="group_7" data-id="{{issuseList[5].id}}"
+          data-name="{{issuseList[5].issueTitle}}"
+           bindtap="topath">
+            <image src="../../images/lanhu_02xuexiaozhuye/9d5be4966a9d00d101f969dc5f718892.png" class="image_10"></image>
+            <text lines="1" class="paragraph_2">{{issuseList[5].issueTitle}}</text>
+          </view>
+        </view>
+      </view>
+</view>

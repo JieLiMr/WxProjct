@@ -1,0 +1,72 @@
+.stepBox{
+    padding: 8rpx 32rpx 32rpx 16rpx;
+  }
+  .box{
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 20rpx;
+  }
+  .stepsList{
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .sigleStep{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 0 0 28rpx;
+    border-left: 4rpx solid #c2c3c4;
+    position: relative;
+  }
+  .greenSigleStep{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 0 0 28rpx;
+    border-left: 4rpx solid #00cf95;
+    position: relative;
+  }
+  .topShelter{
+    width: 20rpx;
+      height: 46rpx;
+      background-color: #ffffff;
+      position: absolute;
+      left: -10rpx;
+      top: 0;
+      z-index: 1;
+  }
+  .bottomShelter{
+    width: 20rpx;
+    height: 122rpx;
+    background-color: #ffffff;
+    position: absolute;
+    left: -10rpx;
+    bottom: 0;
+    z-index: 1;
+  }
+  .gray{
+    width: 10rpx;
+    height: 10rpx;
+    border-radius: 50%;
+    background-color: #969799;
+    position: absolute;
+    top: 34rpx;
+    left: -6rpx;
+  }
+  .green{
+    position: absolute;
+    top: 18rpx;
+    left: -14rpx;
+    z-index: 2;
+    background-color: #fff;
+  }
+  .stepConBox{
+    box-sizing: border-box;
+    padding: 20rpx 20rpx 20rpx 0;
+    color: #969799;
+    font-size: 28rpx;
+    line-height: 36rpx;
+    border-bottom: 1rpx solid #fafafa;
+  }
+  .timebox{
+    margin-top: 8rpx;
+    font-size: 24rpx;
+  }

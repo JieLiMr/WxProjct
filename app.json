@@ -1,6 +1,15 @@
 {
-    "pages": [
-        "pages/index/index"
+    "pages": [    
+     
+       
+        "pages/shouye/index",
+        "pages/SchoolIndex/index", 
+        "pages/saomafankui/index",  
+        "pages/FeedBackDetail/index", 
+        "pages/FeedBack/index", 
+        "pages/QuestionIndex/index", 
+ 
+        "pages/index/index"   
     ],
     "window": {
         "backgroundTextStyle": "light",

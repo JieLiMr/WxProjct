@@ -1,0 +1,16 @@
+<view class="step-bar">
+  <view wx:for="{{steps}}" wx:key="{{index}}" class="step-item">
+    <view class="icon">
+      <image class="step-icon" src="{{item.icon}}"></image>
+    </view>
+    <view class="step-content">
+      <view class="step-tail" wx:if="{{index > 0}}">
+        <image class="step-tail-img" src="{{tailImg}}"></image>
+      </view>
+      <view class="step-node" wx:class="{{activeIndex === index ? 'active' : ''}}">
+        <view class="step-label">{{index+1}}</view>
+      </view>
+      <view class="step-title">{{item.title}}</view>
+    </view>
+  </view>
+</view>

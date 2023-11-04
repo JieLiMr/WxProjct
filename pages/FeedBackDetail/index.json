@@ -1,0 +1,6 @@
+{
+  "usingComponents":
+  {
+    "step-bar":"/components/step-bar/step-bar"
+  }
+}

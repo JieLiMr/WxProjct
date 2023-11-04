@@ -1,0 +1,19 @@
+<navigation-bar default-data="{{defaultData}}"></navigation-bar>
+<view class="page">
+  <view class="group_1">
+    <view class="group_7">
+      <view class="group_11">
+        <image lines="1" class="text_2" src= "https://ezsjyjspy.com:5000/img1_j0wpzcdm.xtc.png"></image>
+        <text lines="1" decode="true" class="text_3">教育解民忧&nbsp;躬身砺初心</text>
+        <view class="text-wrapper_3">
+          <!-- <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" class="btn1"> -->
+            <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" class="btn1">
+          扫码反映问题
+          </button>
+        </view>
+        <text lines="1" class="text_6">问题进度</text>
+        <text lines="1" class="text_7">主办单位：鄂州市教育局</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,2 +1,16 @@
-.nav-bar{ position: fixed; width: 100%; top: 0; color: #fff; background: #000;}
-.nav-bar .search{ width: 60%; color: #333; font-size: 14px; background: #fff; position: absolute; border-radius: 50px; background: #ddd; padding-left: 14px;}
+.nav-bar{ 
+    width: 100%; 
+    color: #fff; 
+    background: #5B84F8;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar .font{
+    top:24px;
+    position: absolute;
+    height: 32px;
+    font-size: 30rpx;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    line-height: 32px;
+}

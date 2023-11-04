@@ -1,0 +1,33 @@
+<navigation-bar default-data="{{defaultData}}"></navigation-bar>
+<view class="page">
+  <view class="block_1">
+        <view class="group_2">
+          <image src="../../images/lanhu_02xuexiaozhuye/49470c1c4f0be1b3fbe1a098d2bb8b1b.png" class="image_1"></image>
+          <text lines="1" class="text_1">{{SchoolTittle}}</text>
+        </view>   
+  </view>
+  <view class="block_2">
+   <view style="width: 750rpx;height: 110rpx;margin-top: 9rpx;background-color: #FFFFFF ;">
+    <image src="../../images/lanhu_02xuexiaozhuye/49470c1c4f0be1b3fbe1a098d2bb8b1b.png" style="width: 60rpx;height: 60rpx;margin-top: 25rpx;margin-left: 25rpx;font-size: 30rpx;"></image>
+          <text lines="1" class="text_1">{{Tille}}</text>
+   </view>
+   <view style="width: 750rpx;height: 110rpx;margin-top: 30prx;text-align: center; ">  
+        <text>
+            请选择问题的具体类目
+        </text>
+   </view>
+    <view class='list-cont'>
+    <view class='my-menu'>
+        <view class='memu-item' wx:for="{{QuestionList}}" wx:key="index"  bindtap="topath" data-name="{{item.issueTitle}}"
+        data-id="{{item.id}}"
+        >
+            <view class="i-name">
+            <image src='../../images/getCoupon.png'></image>
+            <text>{{item.issueTitle}}</text>
+            </view>
+            <view class='arrowhead'></view>
+        </view>
+    </view>
+  </view>
+</view>
+</view>

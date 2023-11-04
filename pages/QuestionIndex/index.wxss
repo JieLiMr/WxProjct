@@ -1,0 +1,114 @@
+.page {
+    top:-94rpx;
+     
+     position: relative;
+     width: 750rpx;
+     height: 1624rpx;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+   }
+   .block_1{
+    background: url(https://ezsjyjspy.com:5000/schoolindex_chbphk51.13u.png) -18rpx 0rpx no-repeat;
+    background-size: 768rpx 412rpx;
+    display: flex;
+    flex-direction: column;
+    width: 750rpx;
+    height: 412rpx;
+   }
+   .group_2 {
+     box-shadow: -2px 0px 30px 0px rgba(0,0,0,0.060000);
+     background-color: rgba(255,255,255,1.000000);
+     border-radius: 4rpx;
+     width: 680rpx;
+     height: 110rpx;
+     flex-direction: row;
+     display: flex;
+     margin: 280rpx 0 0 35rpx;
+   }
+   .image_1 {
+     width: 80rpx;
+     height: 80rpx;
+     margin: 15rpx 0 0 16rpx;
+   }
+   .text_1 {
+     width: 208rpx;
+     height: 30rpx;
+     overflow-wrap: break-word;
+     color: rgba(51,51,51,1);
+     font-size: 30rpx;
+     font-family: PingFangSC-Medium;
+     font-weight: 500;
+     text-align: justifyLeft;
+     white-space: nowrap;
+     line-height: 45rpx;
+     margin: 40rpx 348rpx 0 28rpx;
+   }
+   .block_2{
+       height: 1200rpx;
+       background-color: #F5F7FB;
+   }
+
+
+
+   .list-cont {
+  
+    width: 100%;
+    background: #f7f7f7;
+    margin-top: 20rpx;
+  }
+  
+  
+  .list-cont .my-menu {
+    /* width: 100%; */
+    background-color: #fff;
+    margin-top:20rpx;
+  }
+  
+  .list-cont .my-menu .memu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100rpx;
+    border-bottom: 2rpx solid black;
+    padding:0 30rpx;
+  }
+  
+  .list-cont .my-menu .memu-item:nth-child(1) {
+    border-top: 2rpx solid black;
+  }
+  
+  .list-cont .my-menu .memu-item:last-child {
+    border-bottom: none;
+  }
+  
+  .list-cont .my-menu .memu-item text {
+    font-size: 28rpx;
+  }
+  .list-cont .my-menu .memu-item image{
+    width:50rpx;
+    height:50rpx;
+    margin-right:20rpx;
+  
+  }
+  .list-cont .my-menu .memu-item .i-name{
+    display: flex;
+    align-items: center;
+  }
+  
+  /* end 列表项 */
+  
+  /* 箭头 */
+  
+  .arrowhead {
+    width: 15rpx;
+    height: 15rpx;
+    border-top: 2rpx solid #999;
+    border-right: 2rpx solid #999;
+    transform: rotate(45deg);
+    margin-left: 10rpx;
+  }
+  
+  
+  
+   

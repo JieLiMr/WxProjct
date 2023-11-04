@@ -1,0 +1,16 @@
+<navigation-bar default-data="{{defaultData}}"></navigation-bar>
+<view class="page">
+  <view class="box_1">
+    <view class="group_1">
+      <view class="image_1">
+        <text lines="1" class="text_3">欢迎使用鄂州市学校双评议</text>
+      </view>
+      <view class="text-wrapper_1" bindtap="topth">
+        <text lines="1" class="text_1" bindtap="topth">开始反馈</text>
+      </view>
+      <view class="text-wrapper_2">
+        <text lines="1" class="paragraph_1">鄂州市学校双评议“微信小程序，是鄂州市教育局搭建的“一家长学校一教育局"问题沟通平台。平台集问题反映、受理与反馈于一体，按照“家长反映问题、学校受理解决问题、教育局全过程监督、家长事后评价”的流程开展。<br/>您反映的每一个问题，我们将第一时间逐级受理、处置、反馈，用我们的十分努力换您五分满意！<br/>感谢您对教育工作的支持！</text>
+      </view>
+    </view>
+  </view>
+</view>

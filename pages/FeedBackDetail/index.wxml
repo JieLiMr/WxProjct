@@ -1,0 +1,1 @@
+<step-bar steps="{{steps}}" activeIndex="{{activeIndex}}"></step-bar>

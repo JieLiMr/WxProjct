@@ -1,0 +1,281 @@
+.page {
+    top:-94rpx;
+     position: relative;
+     width: 750rpx;
+     height: 1624rpx;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+   }
+
+   .block_1{
+    background: url(https://ezsjyjspy.com:5000/schoolindex_chbphk51.13u.png) -18rpx 0rpx no-repeat;
+    background-size: 768rpx 412rpx;
+    display: flex;
+    flex-direction: column;
+    width: 750rpx;
+    height: 412rpx;
+   }
+   .group_2 {
+     box-shadow: -2px 0px 30px 0px rgba(0,0,0,0.060000);
+     background-color: rgba(255,255,255,1.000000);
+     border-radius: 4rpx;
+     width: 680rpx;
+     height: 110rpx;
+     flex-direction: row;
+     display: flex;
+     margin: 280rpx 0 0 35rpx;
+   }
+   .image_1 {
+     width: 80rpx;
+     height: 80rpx;
+     margin: 15rpx 0 0 16rpx;
+   }
+   .text_1 {
+     width: 208rpx;
+     height: 30rpx;
+     overflow-wrap: break-word;
+     color: rgba(51,51,51,1);
+     font-size: 30rpx;
+     font-family: PingFangSC-Medium;
+     font-weight: 500;
+     text-align: justifyLeft;
+     white-space: nowrap;
+     line-height: 45rpx;
+     margin: 40rpx 348rpx 0 28rpx;
+   }
+   .group_3 {
+     background-color: rgba(91,132,248,1.000000);
+     height: 176rpx;
+     width: 750rpx;
+     position: absolute;
+     left: 0rpx;
+     top: -82rpx;
+     display: flex;
+     flex-direction: column;
+   }
+   .image-wrapper_1 {
+     width: 653rpx;
+     height: 26rpx;
+     display: flex;
+     flex-direction: row;
+     margin: 34rpx 0 0 69rpx;
+   }
+   .image_2 {
+     width: 653rpx;
+     height: 26rpx;
+   }
+   .group_4 {
+     width: 722rpx;
+     height: 64rpx;
+     flex-direction: row;
+     display: flex;
+     margin: 40rpx 0 12rpx 16rpx;
+   }
+   .image_3 {
+     width: 16rpx;
+     height: 29rpx;
+     margin-top: 17rpx;
+   }
+   .text_2 {
+     width: 119rpx;
+     height: 29rpx;
+     overflow-wrap: break-word;
+     color: rgba(255,255,255,1);
+     font-size: 30rpx;
+     font-family: PingFangSC-Regular;
+     font-weight: normal;
+     text-align: center;
+     white-space: nowrap;
+     line-height: 36rpx;
+     margin: 19rpx 0 0 283rpx;
+   }
+   .image_4 {
+     width: 175rpx;
+     height: 64rpx;
+     margin-left: 129rpx;
+   }
+   .block_2 {
+     width: 750rpx;
+     height: 1131rpx;
+     margin-bottom: 1rpx;
+     display: flex;
+     flex-direction: column;
+   }
+   .box_2 {
+     width: 680rpx;
+     height: 250rpx;
+     flex-direction: row;
+     display: flex;
+     justify-content: space-between;
+     margin: 2rpx 0 0 35rpx;
+   }
+   .section_1 {
+     background-color: rgba(255,255,255,1.000000);
+     border-radius: 4rpx;
+     width: 210rpx;
+     height: 250rpx;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-center;
+   }
+   .image_5 {
+     width: 52rpx;
+     height: 51rpx;
+     margin: 61rpx 0 0 79rpx;
+   }
+   .text_3 {
+     width: 101rpx;
+     height: 25rpx;
+     overflow-wrap: break-word;
+     color: rgba(51,51,51,1);
+     font-size: 26rpx;
+     font-family: PingFangSC-Regular;
+     font-weight: normal;
+     text-align: center;
+     white-space: nowrap;
+     line-height: 45rpx;
+     margin: 53rpx 0 60rpx 54rpx;
+   }
+   .section_2 {
+     background-color: rgba(255,255,255,1.000000);
+     border-radius: 4rpx;
+     width: 210rpx;
+     height: 250rpx;
+     margin-left: 25rpx;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-center;
+   }
+   .image_6 {
+     width: 54rpx;
+     height: 55rpx;
+     margin: 60rpx 0 0 78rpx;
+   }
+   .text_4 {
+     width: 103rpx;
+     height: 25rpx;
+     overflow-wrap: break-word;
+     color: rgba(51,51,51,1);
+     font-size: 26rpx;
+     font-family: PingFangSC-Regular;
+     font-weight: normal;
+     text-align: center;
+     white-space: nowrap;
+     line-height: 45rpx;
+     margin: 50rpx 0 60rpx 54rpx;
+   }
+   .section_3 {
+     background-color: rgba(255,255,255,1.000000);
+     border-radius: 4rpx;
+     width: 210rpx;
+     height: 250rpx;
+     margin-left: 25rpx;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-center;
+   }
+   .image_7 {
+     width: 66rpx;
+     height: 54rpx;
+     margin: 60rpx 0 0 72rpx;
+   }
+   .text_5 {
+     width: 102rpx;
+     height: 25rpx;
+     overflow-wrap: break-word;
+     color: rgba(51,51,51,1);
+     font-size: 26rpx;
+     font-family: PingFangSC-Regular;
+     font-weight: normal;
+     text-align: center;
+     white-space: nowrap;
+     line-height: 45rpx;
+     margin: 51rpx 0 60rpx 54rpx;
+   }
+   .box_3 {
+     width: 680rpx;
+     height: 250rpx;
+     flex-direction: row;
+     display: flex;
+     justify-content: space-between;
+     margin: 25rpx 0 604rpx 35rpx;
+   }
+   .group_5 {
+     background-color: rgba(255,255,255,1.000000);
+     border-radius: 4rpx;
+     width: 210rpx;
+     height: 250rpx;
+     display: flex;
+     flex-direction: column;
+   }
+   .image_8 {
+     width: 64rpx;
+     height: 53rpx;
+     margin: 62rpx 0 0 73rpx;
+   }
+   .text_6 {
+     width: 103rpx;
+     height: 25rpx;
+     overflow-wrap: break-word;
+     color: rgba(51,51,51,1);
+     font-size: 26rpx;
+     font-family: PingFangSC-Regular;
+     font-weight: normal;
+     text-align: center;
+     white-space: nowrap;
+     line-height: 45rpx;
+     margin: 45rpx 0 65rpx 53rpx;
+   }
+   .group_6 {
+     background-color: rgba(255,255,255,1.000000);
+     border-radius: 4rpx;
+     width: 210rpx;
+     height: 250rpx;
+     margin-left: 25rpx;
+     display: flex;
+     flex-direction: column;
+   }
+   .image_9 {
+     width: 50rpx;
+     height: 50rpx;
+     margin: 63rpx 0 0 80rpx;
+   }
+   .paragraph_1 {
+     width: 104rpx;
+     height: 59rpx;
+     overflow-wrap: break-word;
+     color: rgba(51,51,51,1);
+     font-size: 26rpx;
+     font-family: PingFangSC-Regular;
+     font-weight: normal;
+     text-align: center;
+     line-height: 34rpx;
+     margin: 31rpx 0 47rpx 53rpx;
+   }
+   .group_7 {
+     background-color: rgba(255,255,255,1.000000);
+     border-radius: 4rpx;
+     width: 210rpx;
+     height: 250rpx;
+     margin-left: 25rpx;
+     display: flex;
+     flex-direction: column;
+   }
+   .image_10 {
+     width: 48rpx;
+     height: 55rpx;
+     margin: 61rpx 0 0 81rpx;
+   }
+   .paragraph_2 {
+     width: 128rpx;
+     height: 59rpx;
+     overflow-wrap: break-word;
+     color: rgba(51,51,51,1);
+     font-size: 26rpx;
+     font-family: PingFangSC-Regular;
+     font-weight: normal;
+     text-align: center;
+     line-height: 34rpx;
+     margin: 28rpx 0 47rpx 41rpx;
+   }
